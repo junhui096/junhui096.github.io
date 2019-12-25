@@ -220,6 +220,12 @@ a:active {
   #about h1 {
     /*font-size: 100%;*/
   }
+  #salesforce {
+      font-size: 91%;
+  }
+  #iotamedtech {
+      font-size: 100%;
+  }
 
 /*==================================================
                     EXPERIENCE
@@ -240,10 +246,11 @@ a:active {
 
 #portfolio{
     padding:100px 0;
+    background:#f5f5e6;
 } 
 
 .port-head-cont{
-    margin:20px auto 40px auto;
+    margin: auto;
     text-align: center;
 }
 
@@ -259,9 +266,12 @@ a:active {
 #portfolio .portfolio-item .portfolio-link {
     position: relative;
     display: block;
-    max-width: 400px;
+    /*max-width: 600px;*/
     margin: 0 auto;
     cursor: pointer;
+}
+#android {
+    height: auto;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption-port {
@@ -400,11 +410,11 @@ a:active {
 ======================================================*/
 
 #skills {
-    background-image: url("../img/bg-stats.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
+/*    background-image: url("../img/bg-stats.jpg");*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
 
 .skill-cover {
     background-color: rgba(31, 31, 31, 0.68); 
