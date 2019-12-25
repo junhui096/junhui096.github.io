@@ -185,7 +185,7 @@ a:active {
 
   @media (min-width: 768px) {
       section.resume-section {
-          min-height: 100vh;
+          /*min-height: 10vh;*/
       }
       section.resume-section .resume-item .resume-date {
           min-width: 18rem;
@@ -226,6 +226,15 @@ a:active {
   #iotamedtech {
       font-size: 100%;
   }
+      .row.display-flex {
+          display: flex;
+          /*flex-direction: column;*/
+          flex-wrap: wrap;
+      }
+      .row.display-flex > [class*='resume-item-'] {
+        flex-grow: 1;
+      }
+
 
 /*==================================================
                     EXPERIENCE
@@ -234,11 +243,29 @@ a:active {
     background: #f5f5f5;
   }
 
+  .resume-content  {
+      height: 100%;
+      vertical-align: top;
+
+  }
+
+  .card {
+      margin-bottom: 0;
+      padding: auto;
+      height: 100%;
+  }
+
   #experience .card h4{
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: none;
     color:#555;
   }
+/*  !*@media {*!*/
+/*  .row.equal {*/
+/*    display: flex;*/
+/*    flex-wrap: wrap;*/
+/*  }*/
+/*!*}*!*/
 
 /*====================================================
                    PORTFOLIO
@@ -408,6 +435,10 @@ a:active {
 /*====================================================
                       SKILLS
 ======================================================*/
+#filter-bar {
+    padding: 50px;
+}
+}
 
 #skills {
 /*    background-image: url("../img/bg-stats.jpg");*/
