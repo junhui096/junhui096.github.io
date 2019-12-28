@@ -216,13 +216,16 @@ a:active {
       background-position: center center;
       background-repeat: no-repeat;
   }
+  #about_content {
+     color:darkblue;
+  }
 
   #about h1 {
     /*font-size: 100%;*/
   }
-  #salesforce {
-      font-size: 91%;
-  }
+  /*#salesforce {*/
+  /*    font-size: 91%;*/
+  /*}*/
   #iotamedtech {
       font-size: 100%;
   }
